@@ -15,6 +15,10 @@ import ApiCall from "./components/exceptionalHandling/api-call";
 import InlineStyles from "./components/styling/inline-style";
 import ExternalStyles from "./components/styling/external";
 import ModuleStyles from "./components/styling/module-styles";
+import BootstrapLayout from "./components/bootstarp/first-component";
+import MapMethod from "./components/bootstarp/mapMethod";
+import NavBar from "./components/bootstarp/navbar"
+import ParentComponent from "./components/props/parent";
 
 function App(){
   return(
@@ -24,6 +28,11 @@ function App(){
      {/* <ApiCall/>  */}
       {/* <InlineStyles/> */}
       {/* <ExternalStyles/> */}
+      {/* <BootstrapLayout/>
+      <MapMethod/> */}
+      {/* <NavBar/> */}
+      <ParentComponent/>
+
       
     
 
